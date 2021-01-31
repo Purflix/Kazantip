@@ -311,7 +311,6 @@ body {
 .hero__title {
   position: absolute;
   bottom: 120px;
-  max-width: 80%;
   background: #ffefba;
   text-transform: uppercase;
   border-top-left-radius: 50px;
@@ -680,6 +679,10 @@ body {
   }
 
   .hero__title {
+    max-width: 1140px;
+  }
+
+  .hero__title {
     padding: 30px;
   }
 
@@ -955,6 +958,10 @@ body {
   }
 
   .hero__title {
+    max-width: 280px;
+  }
+
+  .hero__title {
     font-size: 24px;
   }
 
@@ -1018,6 +1025,10 @@ body {
 @media (max-width: 1368px) and (min-width: 320px) {
   .title {
     font-size: calc(20px + 16 * ((100vw - 320px) / 1048));
+  }
+
+  .hero__title {
+    max-width: calc(280px + 860 * ((100vw - 320px) / 1048));
   }
 
   .hero__title {
